@@ -1,0 +1,4 @@
+Hello, world!
+This is a real-world document editor example.
+	Indented text after a tab space.
+[Image: picture.jpg]
