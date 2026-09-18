@@ -107,6 +107,7 @@ public:
 class BinaryTreeInorderIterator : public Iterator<int>
 {
 private:
+    // iterative approach not recursive 
     stack<BinaryTree *> stk;
     BinaryTree *curr;
 
