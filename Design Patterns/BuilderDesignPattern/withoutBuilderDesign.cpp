@@ -125,6 +125,7 @@ int main() {
     HttpRequest* request4 = new HttpRequest("https://api.example.com");
     request4->setMethod("POST");
     request4->addHeader("Content-Type", "application/json");
+    request4->addHeader("Accept", "application/json");
     request4->addQueryParam("key", "12345");
 
     // request4->execute();
